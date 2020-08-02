@@ -1,5 +1,8 @@
 # Marketplace
 
+### Demo
+[Click here - Heroku :rocket:](https://marketplace-reactjs-redux-saga.herokuapp.com/)
+
 ### Screenshots
 ![MarketPlace - GIF](/screenshots/marketplace.gif)
 
