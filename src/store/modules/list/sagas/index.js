@@ -2,7 +2,8 @@ import { call, put } from 'redux-saga/effects'
 import { services } from '../../../services/api'
 import { Creators as ListActions } from '../actions'
 
-const genericImg = 'https://content.paodeacucar.com/wp-content/uploads/2019/06/8-dicas-%C3%BAteis-3.jpg'
+import genericImg from '../../../../assets/genericImg.jpg'
+
 export function* getImageRequest(action) {
   try {
     const img = yield call(services.getImages, action.product.product)
